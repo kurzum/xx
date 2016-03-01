@@ -1,4 +1,6 @@
-# xx
+## DISCLAIMER
+This repo is in a alfa stage. I don't recommend you use until we promote it for the nlp2rdf organization. Thank you for your patience!
+
 # RDF to JSON-LD-NIF library
 
 [![Build Status](https://travis-ci.org/sandroacoelho/xx.svg?branch=master)](https://travis-ci.org/sandroacoelho/xx)
