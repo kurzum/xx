@@ -73,22 +73,6 @@ The NLP Interchange Format (NIF) is an RDF/OWL-based format that aims to achieve
    ],
    "graph":[  
       {  
-         "@id":"http://freme-project.eu/#char=0,33",
-         "@type":[  
-            "RFC5147String",
-            "Context",
-            "String"
-         ],
-         "nif:anchorOf":"",
-         "beginIndex":"0",
-         "endIndex":"33",
-         "referenceContext":"",
-         "taClassRef":[  
-            ""
-         ],
-         "taIdentRef":""
-      },
-      {  
          "@id":"http://freme-project.eu/#char=0,14",
          "@type":[  
             "Word",
