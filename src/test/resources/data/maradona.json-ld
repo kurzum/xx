@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "http://freme-project.eu/#char=0,14",
+    "@type" : [ "nif:Word", "nif:String", "nif:Phrase", "nif:RFC5147String" ],
+    "nif:anchorOf" : "Diego Maradona",
+    "beginIndex" : "0",
+    "endIndex" : "14",
+    "referenceContext" : "http://freme-project.eu/#char=0,33",
+    "taClassRef" : [ "http://dbpedia.org/ontology/SportsManager", "http://dbpedia.org/ontology/Person", "http://nerd.eurecom.fr/ontology#Person", "http://dbpedia.org/ontology/Agent", "http://dbpedia.org/ontology/SoccerManager" ],
+    "itsrdf:taConfidence" : 0.9869992701528016,
+    "taIdentRef" : "dbpedia:Diego_Maradona"
+  }, {
+    "@id" : "http://freme-project.eu/#char=0,33",
+    "@type" : [ "nif:String", "nif:Context", "nif:RFC5147String" ],
+    "beginIndex" : "0",
+    "endIndex" : "33",
+    "nif:isString" : "Diego Maradona is from Argentina."
+  }, {
+    "@id" : "http://freme-project.eu/#char=23,32",
+    "@type" : [ "nif:String", "nif:Word", "nif:Phrase", "nif:RFC5147String" ],
+    "nif:anchorOf" : "Argentina",
+    "beginIndex" : "23",
+    "endIndex" : "32",
+    "referenceContext" : "http://freme-project.eu/#char=0,33",
+    "taClassRef" : [ "http://dbpedia.org/ontology/Place", "http://dbpedia.org/ontology/Location", "http://dbpedia.org/ontology/PopulatedPlace", "http://nerd.eurecom.fr/ontology#Location", "http://dbpedia.org/ontology/Country" ],
+    "itsrdf:taConfidence" : 0.9804963628413852,
+    "taIdentRef" : "dbpedia:Argentina"
+  } ],
+  "@context" : {
+    "isString" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#isString",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "endIndex" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "beginIndex" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "taClassRef" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taClassRef",
+      "@type" : "@id"
+    },
+    "referenceContext" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext",
+      "@type" : "@id"
+    },
+    "taConfidence" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taConfidence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "anchorOf" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "taIdentRef" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taIdentRef",
+      "@type" : "@id"
+    },
+    "dbpedia-fr" : "http://fr.dbpedia.org/resource/",
+    "dbc" : "http://dbpedia.org/resource/Category:",
+    "dbpedia-es" : "http://es.dbpedia.org/resource/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "itsrdf" : "http://www.w3.org/2005/11/its/rdf#",
+    "dbpedia" : "http://dbpedia.org/resource/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "nif" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+    "dbpedia-de" : "http://de.dbpedia.org/resource/",
+    "dbpedia-ru" : "http://ru.dbpedia.org/resource/",
+    "freme-onto" : "http://freme-project.eu/ns#",
+    "dbpedia-nl" : "http://nl.dbpedia.org/resource/",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "dbpedia-it" : "http://it.dbpedia.org/resource/"
+  }
+}

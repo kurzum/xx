@@ -1,0 +1,27 @@
+{
+   "context":[
+        #foreach( $ctx in $contextProperties)
+   	     {
+   	        "@alias" : "$ctx.name",
+            "@id": "$ctx.uri"
+         }#if( $foreach.hasNext ),
+          #end
+         #end
+	],
+
+	"graph": [
+	        #foreach( $graph in $graphs)
+	        {
+    		"@id":  "$graph.id",
+    		"@type": [ "$graph.types"],
+    		"nif:anchorOf" : "$graph.nifAnchorOf",
+    		"beginIndex": "$graph.beginIndex",
+    		"endIndex": "$graph.endIndex",
+    		"referenceContext": "$graph.referenceContext",
+    		"taClassRef": ["$graph.taClassRef"],
+    		"taIdentRef": "$graph.taIdentRef"
+    	    }#if( $foreach.hasNext ),
+           #end
+          #end
+    	  ]
+}
