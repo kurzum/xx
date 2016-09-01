@@ -14,7 +14,7 @@
 	        {
     		"@id":  "$graph.id",
     		"@type": [ "$graph.types"],
-    		"nif:anchorOf" : "$graph.nifAnchorOf",
+    		"anchorOf" : "$graph.anchorOf",
     		"beginIndex": "$graph.beginIndex",
     		"endIndex": "$graph.endIndex",
     		"referenceContext": "$graph.referenceContext",
